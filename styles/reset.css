@@ -8,6 +8,27 @@ CSS Reset
  https://meyerweb.com/eric/tools/css/reset/
 */
 /**/
+@font-face {
+  font-family: AvenirNext;
+  src: url("../fonts/AvenirNext-Regular.woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: AvenirNext;
+  src: url("../fonts/AvenirNext-Medium.woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: AvenirNext;
+  src: url("../fonts/AvenirNext-Bold.woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: AvenirNext;
+  src: url("../fonts/AvenirNext-DemiBold.woff");
+  font-weight: 500;
+}
+
 html,
 body,
 div,
@@ -93,7 +114,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: AvenirNext;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */

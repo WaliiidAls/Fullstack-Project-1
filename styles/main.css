@@ -17,26 +17,6 @@ Avenir Next
 Lato
 */
 /*---------------------------------------------*/
-@font-face {
-  font-family: AvenirNext;
-  src: url("../fonts/AvenirNext-Regular.woff");
-  font-weight: normal;
-}
-@font-face {
-  font-family: AvenirNext;
-  src: url("../fonts/AvenirNext-Medium.woff");
-  font-weight: 600;
-}
-@font-face {
-  font-family: AvenirNext;
-  src: url("../fonts/AvenirNext-Bold.woff");
-  font-weight: bold;
-}
-@font-face {
-  font-family: AvenirNext;
-  src: url("../fonts/AvenirNext-DemiBold.woff");
-  font-weight: 500;
-}
 
 /*----------------------٢-----------------------*/
 /*                  DEFAULTS                    */
@@ -52,14 +32,12 @@ html {
   height: 100%;
 }
 p {
-  font-family: AvenirNext;
   color: #2c2a2e;
   line-height: 30px;
   width: 320px;
 }
 h1 {
   color: #2c2a2e;
-  font-family: AvenirNext;
   font-weight: bold;
   font-size: 50px;
   line-height: 70px;
@@ -67,7 +45,6 @@ h1 {
 }
 h2 {
   color: #2c2a2e;
-  font-family: AvenirNext;
   font-weight: 600;
   font-size: calc(1.25 * 2.5vw);
   line-height: 70px;
@@ -75,7 +52,6 @@ h2 {
 }
 h4 {
   color: #2c2a2e;
-  font-family: AvenirNext;
   font-weight: 500;
   line-height: 30px;
 }
@@ -91,7 +67,6 @@ classes
 .button.is-primary {
   border-radius: 50px;
   border: none;
-  font-family: AvenirNext;
   font-weight: bold;
   color: white;
   background-color: #3040c4;
@@ -125,7 +100,6 @@ header .container .main-nav ul {
 }
 header .container .main-nav li {
   padding: 0 0 0 40px;
-  font-family: AvenirNext;
   font-weight: 600;
 }
 header .burger.is-visible-mobile {
@@ -188,7 +162,6 @@ header .burger.is-visible-mobile {
 .switcher {
   text-align: center;
   color: #ccc;
-  font-family: AvenirNext;
   flex-direction: row;
 }
 .switcher span {
@@ -210,7 +183,6 @@ header .burger.is-visible-mobile {
   border-radius: 45px 0 0 45px;
   z-index: 1;
   font-size: 20px;
-  font-family: AvenirNext;
   background: url("../images/map-pin.png") no-repeat 1.3vw 17px;
   background-color: white;
   padding-left: 50px;
@@ -282,7 +254,6 @@ header .burger.is-visible-mobile {
 }
 .widgets.is-howItWorks .widget__desc h3 {
   color: #3d3d3d;
-  font-family: AvenirNext;
   font-weight: 600;
   font-size: 18px;
 }
@@ -302,7 +273,6 @@ header .burger.is-visible-mobile {
 }
 
 .stories .container h2 {
-  font-family: AvenirNext;
   font-size: 40px;
   padding-bottom: 20px;
   text-align: center;
@@ -326,12 +296,10 @@ header .burger.is-visible-mobile {
   margin: 10px 0;
 }
 .stories .container .widgets .widget .widget__desc h3 {
-  font-family: AvenirNext;
   padding: 10px 0;
   font-size: 20px;
 }
 .stories .container .widgets .widget .widget__desc a {
-  font-family: AvenirNext;
   font-size: 13px;
   font-weight: 600;
   color: #3f43e0;
@@ -362,7 +330,6 @@ header .burger.is-visible-mobile {
   height: 60px;
   width: 200px;
   border-radius: 30px;
-  font-family: AvenirNext;
   font-weight: 600;
   font-size: 20px;
   margin: 20px 10px;
@@ -395,11 +362,9 @@ footer .container .footer-nav {
   font-size: 15px;
 }
 footer .container .footer-nav .item {
-  font-family: AvenirNext;
   padding: 0 40px;
 }
 footer .container .footer-nav .item h5 {
-  font-family: AvenirNext;
   font-weight: bold;
   padding-bottom: 20px;
   font-size: 14px;
@@ -457,6 +422,9 @@ footer .container .footer-nav .item a {
   }
   .meetYourMatch .container {
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .meetYourMatchــcontent {
     width: 100vw;
