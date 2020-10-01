@@ -101,7 +101,7 @@ document
     card.length == 0
       ? (document.getElementsByClassName(
           "widgets is-searchResults"
-        )[0].innerHTML = "Please type the name of the city correctly, Try CA, NY, SA")
+        )[0].innerHTML = "Please type the name of the city correctly, Try ca, ny, sa")
       : (document.getElementsByClassName(
           "widgets is-searchResults"
         )[0].innerHTML = card.map(
