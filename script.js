@@ -5,7 +5,7 @@ let cards = [
     type: "dog",
     sex: "male",
     age: "young",
-    city: "Los Angeles CA",
+    city: "los angeles ca",
     img: "./images/pet-01.png",
   },
   {
@@ -13,7 +13,7 @@ let cards = [
     type: "cat",
     sex: "male",
     age: "young",
-    city: "Los Angeles CA",
+    city: "los angeles ca",
     img: "./images/pet-02.png",
   },
   {
@@ -21,7 +21,7 @@ let cards = [
     type: "cat",
     sex: "male",
     age: "young",
-    city: "Los Angeles CA",
+    city: "los angeles ca",
     img: "./images/pet-03.png",
   },
   {
@@ -29,7 +29,7 @@ let cards = [
     type: "cat",
     sex: "male",
     age: "young",
-    city: "Los Angeles CA",
+    city: "los angeles ca",
     img: "./images/pet-04.png",
   },
   // New York NY
@@ -38,7 +38,7 @@ let cards = [
     type: "cat",
     sex: "Female",
     age: "young",
-    city: "New York NY",
+    city: "new york ny",
     img: "./images/pet-02.png",
   },
   {
@@ -46,7 +46,7 @@ let cards = [
     type: "dog",
     sex: "Female",
     age: "old",
-    city: "New York NY",
+    city: "new york ny",
     img: "./images/pet-04.png",
   },
   {
@@ -54,7 +54,7 @@ let cards = [
     type: "dog",
     sex: "Female",
     age: "young",
-    city: "New York NY",
+    city: "new york ny",
     img: "./images/pet-01.png",
   },
   // San Fransico SA
@@ -63,7 +63,7 @@ let cards = [
     type: "dog",
     sex: "Male",
     age: "old",
-    city: "San Fransico SA",
+    city: "san fransico sa",
     img: "./images/pet-01.png",
   },
   {
@@ -71,7 +71,7 @@ let cards = [
     type: "dog",
     sex: "Female",
     age: "old",
-    city: "San Fransico SA",
+    city: "san fransico sa",
     img: "./images/pet-03.png",
   },
   {
@@ -79,7 +79,7 @@ let cards = [
     type: "cat",
     sex: "Female",
     age: "young",
-    city: "San Fransico SA",
+    city: "san fransico sa",
     img: "./images/pet-02.png",
   },
   {
@@ -87,7 +87,7 @@ let cards = [
     type: "cat",
     sex: "Female",
     age: "young",
-    city: "San Fransico SA",
+    city: "san fransico sa",
     img: "./images/pet-04.png",
   },
 ];
@@ -99,7 +99,9 @@ document
     const card = cards.filter((i) => i.city.includes(value));
     // console.log(cards.length);
     card.length == 0
-      ? alert("Please type the name of the city correctly, Try CA, NY, SA")
+      ? (document.getElementsByClassName(
+          "widgets is-searchResults"
+        )[0].innerHTML = "Please type the name of the city correctly, Try CA, NY, SA")
       : (document.getElementsByClassName(
           "widgets is-searchResults"
         )[0].innerHTML = card.map(
